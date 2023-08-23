@@ -18,7 +18,7 @@ section .form_data{
     max-width: 550px;
     margin: 25px auto;
     padding: 35px 10px;
-    box-shadow: 0 0 15px -10px #2d3748;
+    box-shadow: 0 0 15px -10px ##482d2d;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ section .form_data{
 
 .form_data h1{
     font-size: 34px;
-    color: #2a4365;
+    color: ##652a2a;
 }
 
 .form_data p{
@@ -51,7 +51,7 @@ section .form_data{
 .form_data form .form_input input{
     width: 100%;
     padding: 11px;
-    border: 1px solid #d4d0d0;
+    border: 1px solid ##d4d0d2;
     border-radius: 5px;
     outline: none;
     margin-bottom: 14px;
@@ -72,12 +72,12 @@ section .form_data{
 }
 
 .form_data form .form_input input:focus{
-    border:2px solid rgba(66, 153, 225,0.6);
+    border:2px solid rgba(225, 66, 66,0.6);
 }
 
 
 .form_data form .form_input input::placeholder{
-    color: #8694a8;
+    color: ##a8868c;
     letter-spacing: .5px;
     font-size: 14px;
 }
@@ -91,8 +91,8 @@ section .form_data{
     margin-top: 12px;
     font-size: 14px;
     font-weight: 600;
-    color: #2a4365;
-    background-color: #EDF2F7;
+    color: ##652a30;
+    background-color: ##f7edee;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -104,7 +104,7 @@ form .btn{
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color:#1a365d;
+    background-color:#fc0349;
     color: #fff;
     font-weight: 600;
     font-size: 18px;
@@ -115,10 +115,10 @@ form .btn{
 
 
 form .btn:hover{
-    background-color: #97a1b1;
+    background-color: #e09baf;
 }
 form .btnload{
-    background-color: #97a1b1;
+    background-color: ##b19797;
 }
 
 .form_data form p{
@@ -128,6 +128,6 @@ form .btnload{
 
 .form_data form a{
     text-decoration: none;
-    color:#718096 ;
-    border-bottom: 2px solid #8694a8;
+    color:##967178 ;
+    border-bottom: 2px solid ##a8868d;
 }
