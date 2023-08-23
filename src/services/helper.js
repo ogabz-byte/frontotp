@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://otp-api.onrender.com/";
+export const BACKEND_URL = "https://otp-api-125s.onrender.com";
